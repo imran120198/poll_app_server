@@ -56,7 +56,4 @@ This RESTful API serves as the backend for a poll application, enabling users to
 
 The database schema includes tables for Users, Polls, Questions, Options, UserPolls, and PollAnalytics. Here's an overview:
 
-### Users Table
 
-- `user_id`: Unique identifier for users.
-- `username`: User's username.
