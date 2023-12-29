@@ -6,6 +6,10 @@ const { userRouter } = require("./Routes/User.routes");
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Welcome to Polling Server");
+});
+
 app.use("/polls", PollRouter);
 app.use("/user", userRouter);
 
